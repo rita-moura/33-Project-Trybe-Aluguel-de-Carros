@@ -23,7 +23,7 @@ public class Rent
         }
         else 
         {
-            Price = vehicle.PricePerDay * daysRented * 0.9;
+            Price = vehicle.PricePerDay * daysRented - 0.1;
         }
 
         Status = RentStatus.Confirmed;
